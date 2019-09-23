@@ -234,19 +234,22 @@ a:hover {
 
 /*** HEADER ***/
 
+#header{
+    background-color: red;
+    width: 100%;
+    display: table;
+}
+
 #menu {
     width: 100%;
     display: table;
-    background-color: #FFF;
-    position: fixed;
-    z-index: 999;
+    background-color: transparent;
 }
 
 .menu {
     width: 1170px;
     display: table;
     margin: auto;
-    position: relative;
 }
 
 .logo {
