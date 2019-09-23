@@ -82,41 +82,17 @@
 
         <div class="menu">
 
-
-
-            <div class="logo">
-
-                <a href="#header"><img src="images/avallis.png" alt="Avallis - Avaliacao Patrimonial"></a>
-
-            </div>
-
-            <div class="social-media">
-
-                <ul>
-
-                    <li><a href="#"><span>(31) 99358-6331 | 99818-0697 | 97121-8785</span><i class="fas fa-phone-square"></i></a></li>
-
-                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-
-                </ul>
-
-            </div>
-
             <div class="main-menu">
 
                 <ul>
 
-                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#quem-somos">Como Participar</a></li>
 
-                    <li><a href="#o-que-fazemos">O Que Fazemos</a></li>
+                    <li><a href="#o-que-fazemos">Prêmios</a></li>
 
-                    <li><a href="#nossa-equipe">Nossa Equipe</a></li>
+                    <li><a href="#nossa-equipe">Ganhadores</a></li>
 
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#contato">Consultas</a></li>
 
                 </ul>
 
@@ -145,7 +121,7 @@
     </div>
 
     <div id="slide">
-
+        <img src="images/premios_seculus.png" />
     </div>
 
 </header>

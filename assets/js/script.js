@@ -6,12 +6,9 @@ jQuery(document).ready(function ($) {
 
     //PADDING PARA O BANNER
     $(window).on('resize', function () {
-        $('#slide').css('padding-top', $('#menu').height());
+
     }).trigger('resize');
 
-    //PADDING E MARGIN PARA A ANCORA FICAR CERTA
-    $("#quem-somos, #nossa-equipe, #o-que-fazemos, #contato").css('padding-top', $('#menu').height() - 1);
-    $("#quem-somos, #nossa-equipe, #o-que-fazemos, #contato").css('margin-top', -$('#menu').height() + 1);
 
     //IGUALANDO O TAMANHO DAS DIVS DE O QUE FAZEMOS
     $(window).on('resize', function () {

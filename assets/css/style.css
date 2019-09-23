@@ -223,19 +223,25 @@ body {
 }
 
 a {
-    color: #214064;
+    color: #FFF;
     text-decoration: none;
 }
 
 a:hover {
-    color: #001938;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /*** HEADER ***/
 
 #header{
-    background-color: red;
+    background: rgba(116,28,31,1);
+    background: -moz-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116,28,31,1)), color-stop(26%, rgba(63,23,26,1)), color-stop(71%, rgba(34,20,20,1)), color-stop(100%, rgba(68,25,26,1)));
+    background: -webkit-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
+    background: -o-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
+    background: -ms-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
+    background: linear-gradient(to bottom, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741c1f', endColorstr='#44191a', GradientType=0 );
     width: 100%;
     display: table;
 }
@@ -244,12 +250,14 @@ a:hover {
     width: 100%;
     display: table;
     background-color: transparent;
+    position: relative;
 }
 
 .menu {
     width: 1170px;
     display: table;
     margin: auto;
+    position: relative;
 }
 
 .logo {
@@ -291,15 +299,17 @@ a:hover {
 
 .main-menu {
     display: table;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
 }
 
 .main-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .main-menu ul li {
@@ -315,13 +325,11 @@ a:hover {
 }
 
 .main-menu ul li a:hover {
-    background-color: #214064;
     color: #FFF;
 }
 
 .main-menu ul li a.active {
-    background-color: #214064;
-    color: #FFF;
+    text-decoration: underline;
 }
 
 #menuresp {
@@ -369,6 +377,12 @@ a:hover {
 #menuresp ul li a:hover {
     background-color: #214064;
     color: #FFF;
+}
+
+#slide img{
+    display: table;
+    margin: 0 auto -120px auto;
+    max-width: 80%;
 }
 
 .carousel-item {
