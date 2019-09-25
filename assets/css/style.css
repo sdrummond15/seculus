@@ -1,215 +1,11 @@
 @font-face {
-    font-family: 'fira_sans_extra_condensedMdIt';
-    src: url('fonts/FiraSansCondensed-MediumItalic.eot');
-    src: url('fonts/FiraSansCondensed-MediumItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-MediumItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-MediumItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-MediumItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-MediumItalic.svg#fira_sans_extra_condensedMdIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedRg';
-    src: url('fonts/FiraSansCondensed-Regular.eot');
-    src: url('fonts/FiraSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Regular.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Regular.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Regular.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Regular.svg#fira_sans_extra_condensedRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedSBd';
-    src: url('fonts/FiraSansCondensed-SemiBold.eot');
-    src: url('fonts/FiraSansCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-SemiBold.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-SemiBold.woff') format('woff'),
-    url('fonts/FiraSansCondensed-SemiBold.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-SemiBold.svg#fira_sans_extra_condensedSBd') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condenseSBdIt';
-    src: url('fonts/FiraSansCondensed-SemiBoldItalic.eot');
-    src: url('fonts/FiraSansCondensed-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-SemiBoldItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-SemiBoldItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-SemiBoldItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-SemiBoldItalic.svg#fira_sans_extra_condenseSBdIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedthin';
-    src: url('fonts/FiraSansCondensed-Thin.eot');
-    src: url('fonts/FiraSansCondensed-Thin.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Thin.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Thin.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Thin.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Thin.svg#fira_sans_extra_condensedthin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedThIt';
-    src: url('fonts/FiraSansCondensed-ThinItalic.eot');
-    src: url('fonts/FiraSansCondensed-ThinItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-ThinItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-ThinItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-ThinItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-ThinItalic.svg#fira_sans_extra_condensedThIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedBlk';
-    src: url('fonts/FiraSansCondensed-Black.eot');
-    src: url('fonts/FiraSansCondensed-Black.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Black.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Black.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Black.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Black.svg#fira_sans_extra_condensedBlk') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condenseBlkIt';
-    src: url('fonts/FiraSansCondensed-BlackItalic.eot');
-    src: url('fonts/FiraSansCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-BlackItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-BlackItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-BlackItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-BlackItalic.svg#fira_sans_extra_condenseBlkIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedbold';
-    src: url('fonts/FiraSansCondensed-Bold.eot');
-    src: url('fonts/FiraSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Bold.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Bold.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Bold.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Bold.svg#fira_sans_extra_condensedbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedBdIt';
-    src: url('fonts/FiraSansCondensed-BoldItalic.eot');
-    src: url('fonts/FiraSansCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-BoldItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-BoldItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-BoldItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-BoldItalic.svg#fira_sans_extra_condensedBdIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedXBd';
-    src: url('fonts/FiraSansCondensed-ExtraBold.eot');
-    src: url('fonts/FiraSansCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-ExtraBold.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-ExtraBold.woff') format('woff'),
-    url('fonts/FiraSansCondensed-ExtraBold.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-ExtraBold.svg#fira_sans_extra_condensedXBd') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condenseXBdIt';
-    src: url('fonts/FiraSansCondensed-ExtraBoldItalic.eot');
-    src: url('fonts/FiraSansCondensed-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-ExtraBoldItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-ExtraBoldItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-ExtraBoldItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-ExtraBoldItalic.svg#fira_sans_extra_condenseXBdIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedXLt';
-    src: url('fonts/FiraSansCondensed-ExtraLight.eot');
-    src: url('fonts/FiraSansCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-ExtraLight.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-ExtraLight.woff') format('woff'),
-    url('fonts/FiraSansCondensed-ExtraLight.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-ExtraLight.svg#fira_sans_extra_condensedXLt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condenseXLtIt';
-    src: url('fonts/FiraSansCondensed-ExtraLightItalic.eot');
-    src: url('fonts/FiraSansCondensed-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-ExtraLightItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-ExtraLightItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-ExtraLightItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-ExtraLightItalic.svg#fira_sans_extra_condenseXLtIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedIt';
-    src: url('fonts/FiraSansCondensed-Italic.eot');
-    src: url('fonts/FiraSansCondensed-Italic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Italic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Italic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Italic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Italic.svg#fira_sans_extra_condensedIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedLt';
-    src: url('fonts/FiraSansCondensed-Light.eot');
-    src: url('fonts/FiraSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Light.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Light.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Light.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Light.svg#fira_sans_extra_condensedLt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedLtIt';
-    src: url('fonts/FiraSansCondensed-LightItalic.eot');
-    src: url('fonts/FiraSansCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-LightItalic.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-LightItalic.woff') format('woff'),
-    url('fonts/FiraSansCondensed-LightItalic.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-LightItalic.svg#fira_sans_extra_condensedLtIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'fira_sans_extra_condensedMd';
-    src: url('fonts/FiraSansCondensed-Medium.eot');
-    src: url('fonts/FiraSansCondensed-Medium.eot?#iefix') format('embedded-opentype'),
-    url('fonts/FiraSansCondensed-Medium.woff2') format('woff2'),
-    url('fonts/FiraSansCondensed-Medium.woff') format('woff'),
-    url('fonts/FiraSansCondensed-Medium.ttf') format('truetype'),
-    url('fonts/FiraSansCondensed-Medium.svg#fira_sans_extra_condensedMd') format('svg');
+    font-family: 'Times Sans Serif';
+    src: url('fonts/TimesSansSerif.eot');
+    src: url('fonts/TimesSansSerif.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TimesSansSerif.woff2') format('woff2'),
+    url('fonts/TimesSansSerif.woff') format('woff'),
+    url('fonts/TimesSansSerif.ttf') format('truetype'),
+    url('fonts/TimesSansSerif.svg#TimesSansSerif') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -217,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'fira_sans_extra_condensedRg', Arial;
+    font-family: 'Times Sans Serif', Arial;
     font-size: 18px;
     color: #444;
 }
@@ -233,15 +29,15 @@ a:hover {
 
 /*** HEADER ***/
 
-#header{
-    background: rgba(116,28,31,1);
-    background: -moz-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116,28,31,1)), color-stop(26%, rgba(63,23,26,1)), color-stop(71%, rgba(34,20,20,1)), color-stop(100%, rgba(68,25,26,1)));
-    background: -webkit-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
-    background: -o-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
-    background: -ms-linear-gradient(top, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
-    background: linear-gradient(to bottom, rgba(116,28,31,1) 0%, rgba(63,23,26,1) 26%, rgba(34,20,20,1) 71%, rgba(68,25,26,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741c1f', endColorstr='#44191a', GradientType=0 );
+#header {
+    background: rgba(116, 28, 31, 1);
+    background: -moz-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116, 28, 31, 1)), color-stop(26%, rgba(63, 23, 26, 1)), color-stop(71%, rgba(34, 20, 20, 1)), color-stop(100%, rgba(68, 25, 26, 1)));
+    background: -webkit-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
+    background: -o-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
+    background: linear-gradient(to bottom, rgba(116, 28, 31, 1) 0%, rgba(63, 23, 26, 1) 26%, rgba(34, 20, 20, 1) 71%, rgba(68, 25, 26, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#741c1f', endColorstr='#44191a', GradientType=0);
     width: 100%;
     display: table;
 }
@@ -317,19 +113,23 @@ a:hover {
 }
 
 .main-menu ul li a {
-    padding: 10px 20px;
+    padding: 3px 0;
     text-transform: uppercase;
-    font-family: 'fira_sans_extra_condensedMd';
     display: table;
     transition: all 300ms;
+    font-size: 24px;
+    border-bottom: 1px solid transparent;
 }
 
 .main-menu ul li a:hover {
     color: #FFF;
+    border-bottom: 1px solid #FFF;
+    text-decoration: none;
 }
 
 .main-menu ul li a.active {
-    text-decoration: underline;
+    border-bottom: 1px solid #FFF;
+    text-decoration: none;
 }
 
 #menuresp {
@@ -368,7 +168,6 @@ a:hover {
 #menuresp ul li a {
     text-align: center;
     width: 100%;
-    font-family: 'fira_sans_extra_condensedMd';
     transition: all 300ms;
     padding: 3px 20px;
     display: table;
@@ -379,9 +178,9 @@ a:hover {
     color: #FFF;
 }
 
-#slide img{
+#slide img {
     display: table;
-    margin: 0 auto -120px auto;
+    margin: 0 auto -170px auto;
     max-width: 80%;
 }
 
@@ -413,629 +212,354 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFF;
-    font-family: 'fira_sans_extra_condensedXLt';
     font-size: 60px;
     text-transform: uppercase;
     text-align: center;
 }
 
-.quem-somos {
-    background-color: #002441;
+.marcas {
+    background: rgba(49, 23, 24, 1);
+    background: -moz-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(49, 23, 24, 1)), color-stop(5%, rgba(64, 23, 26, 1)), color-stop(50%, rgba(208, 106, 73, 1)), color-stop(95%, rgba(64, 23, 26, 1)), color-stop(100%, rgba(49, 23, 24, 1)));
+    background: -webkit-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
+    background: -o-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
+    background: linear-gradient(to right, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#311718', endColorstr='#311718', GradientType=1);
     width: 100%;
     display: table;
 }
 
-.quem-somos > article {
+.marcas > article {
+    width: 1170px;
+    margin: 150px auto 60px auto;
+}
+
+.marcas > article ul {
+    display: table;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.marcas > article ul li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.periodo {
+    width: 100%;
+    display: table;
+    background: rgba(34, 20, 20, 1);
+    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+}
+
+.periodo > article {
     width: 1170px;
     margin: 60px auto;
 }
 
-.quem-somos > article img {
-    float: right;
-    margin: 0 0 10px 20px;
-    max-width: 350px;
-}
-
-.quem-somos > article h3 {
-    font-size: 22px;
+.periodo > article h1 {
+    text-align: center;
     color: #FFF;
-    font-family: 'fira_sans_extra_condensedXLt';
+    font-size: 40px;
+    margin-bottom: 35px;
 }
 
-.o-que-fazemos {
+.periodo > article h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.periodo .linha {
+    width: 500px;
+    max-width: 80%;
+    height: 5px;
+    display: table;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
+}
+
+#participar ul {
     width: 100%;
     display: table;
-}
-
-.o-que-fazemos > article {
-    width: 1170px;
-    margin: 60px auto;
-}
-
-.o-que-fazemos > article h4 {
+    padding: 0;
+    list-style: none;
     margin-bottom: 40px;
 }
 
-#servicos {
-    padding: 10px 20px;
-    font-family: 'fira_sans_extra_condensedSBd';
-    font-size: 24px;
-    text-align: center;
-    color: #FFF;
-    background-color: #063802;
+#participar ul li {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
 }
 
-#inventario,
-#levantamento {
-    width: 50%;
-    position: relative;
-    padding: 20px 20px 60px 20px;
-    float: left;
-    color: #FFF;
+#participar ul li.next {
+    width: calc(5% - 10px);
+    margin: 50px 5px 0 5px;
 }
 
-#inventario button,
-#levantamento button {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 5px 15px;
-    border: 0;
-    border-radius: 2px;
-    color: #FFF;
-    cursor: pointer;
-    font-weight: normal;
-    font-family: 'fira_sans_extra_condensedSBd';
-    min-width: 260px;
-}
-
-#inventario h2,
-#levantamento h2 {
-    font-size: 24px;
-    text-align: center;
-    font-family: 'fira_sans_extra_condensedMd';
-    margin-bottom: 1.5rem;
-}
-
-#inventario p,
-#levantamento p {
-    text-align: justify;
-    font-family: 'fira_sans_extra_condensedLt';
-}
-
-#inventario {
-    background-color: #234266;
-}
-
-#inventario button {
-    background-color: #3b6493;
-}
-
-#levantamento {
-    background-color: #3d8538;
-}
-
-#levantamento button {
-    background-color: #75b025;
-}
-
-#desc-service {
+#participar ul li img {
     display: table;
-    width: 100%;
+    margin: 0 auto 20px auto;
+    max-width: 90%;
 }
 
-#desc-service ul {
-    padding: 20px;
-    list-style: none;
-    display: none;
-    display: none;
-}
-
-#desc-service ul li {
+#participar ul li span {
+    padding: 0 20px;
     color: #FFF;
-    font-family: 'fira_sans_extra_condensedLt';
-    font-size: 16px;
-}
-
-#desc-service ul.inventario {
-    background-color: #234266;
-}
-
-#desc-service ul.levantamento {
-    background-color: #3d8538;;
-}
-
-/*RESPONSIVE*/
-#inventario-resp,
-#levantamento-resp {
-    display: none;
-    width: 100%;
-    position: relative;
-    padding: 20px 20px 60px 20px;
-    color: #FFF;
-}
-
-#inventario-resp button,
-#levantamento-resp button {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 5px 15px;
-    border: 0;
-    border-radius: 2px;
-    color: #FFF;
-    cursor: pointer;
-    font-weight: normal;
-    font-family: 'fira_sans_extra_condensedSBd';
-    min-width: 240px;
-    font-size: 16px;
-}
-
-#inventario-resp h2,
-#levantamento-resp h2 {
-    font-size: 20px;
     text-align: center;
-    font-family: 'fira_sans_extra_condensedMd';
-    margin-bottom: 1.5rem;
+    font-size: 24px;
+    display: block;
 }
 
-#inventario-resp p,
-#levantamento-resp p {
-    text-align: justify;
-    font-family: 'fira_sans_extra_condensedLt';
-}
-
-#inventario-resp {
-    background-color: #234266;
-}
-
-#levantamento-resp {
-    background-color: #3d8538;
-}
-
-#inventario-resp button {
-    background-color: #3b6493;
-}
-
-#levantamento-resp button {
-    background-color: #75b025;
-}
-
-#desc-inventario-resp,
-#desc-levantamento-resp {
-    display: none;
-    padding: 10px 20px;
-}
-
-#desc-inventario-resp {
-    background-color: #234266;
-}
-
-#desc-levantamento-resp {
-    background-color: #3d8538;
-}
-
-#desc-inventario-resp p,
-#desc-levantamento-resp p {
-    font-family: 'fira_sans_extra_condensedLt';
-    font-size: 16px;
-    color: #FFF;
-}
-
-#desc-inventario-resp ul,
-#desc-levantamento-resp ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-#desc-inventario-resp ul li,
-#desc-levantamento-resp ul li {
-    font-family: 'fira_sans_extra_condensedLt';
-    font-size: 16px;
-    color: #FFF;
-}
-
-.nossa-equipe {
-    background-color: #1f651a;
+.sorteio {
+    background: rgba(34, 20, 20, 1);
+    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
     width: 100%;
     display: table;
 }
 
-.nossa-equipe > article {
+.sorteio > article {
     width: 1170px;
-    margin: 60px auto;
+    margin: auto;
 }
 
-.nossa-equipe > article h2 {
-    font-family: 'fira_sans_extra_condensedXBd';
+.sorteio-semana h2 {
     text-transform: uppercase;
     text-align: center;
-    color: #FFF;
-    font-size: 30px;
-}
-
-.nossa-equipe > article ul {
-    padding: 0;
-    list-style: none;
-}
-
-.nossa-equipe > article ul li {
-    color: #FFF;
-    border-bottom: 1px solid #8cc53f;
+    color: #262424;
+    font-size: 36px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
-.nossa-equipe > article ul li:last-child {
-    border-bottom: 0;
-}
-
-.nossa-equipe > article ul li h3 {
-    font-family: 'fira_sans_extra_condensedLtIt';
-}
-
-.nossa-equipe > article ul li p {
-    font-family: 'fira_sans_extra_condensedXLt';
-}
-
-#frase {
-    width: 100%;
+.sorteio-semana {
+    width: calc(100% - 60px);
+    padding: 20px 30px;
     display: table;
-    background-image: url("../../images/equipe.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: rgba(223, 146, 46, 1);
+    background: -moz-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
+    background: -webkit-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -o-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: linear-gradient(to bottom, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=0);
 }
 
-.frase {
-    width: 100%;
-    display: table;
-    background-color: rgba(0, 0, 0, 0.5);
+.sorteio-semana img {
+    float: left;
+    margin-right: 20px;
 }
 
-.frase article {
-    width: 1170px;
-    margin: 100px auto;
+.sorteio-semana .box-info {
+    display: block;
 }
 
-.frase article h2 {
-    color: #FFF;
-    font-family: 'fira_sans_extra_condensedSBd';
+.sorteio-semana .box-info h3 {
     text-align: center;
+    color: #262424;
+    margin: 10px 0;
+    font-weight: bold;
 }
 
-.frase article small {
-    color: #FFF;
-    font-family: 'fira_sans_extra_condensedLtIt';
+.sorteio-semana .box-info ul {
     display: table;
-    margin: 10px auto;
-}
-
-.contato {
-    width: 100%;
-    display: table;
-}
-
-.contato article {
-    width: 1170px;
-    display: table;
-    margin: 100px auto;
-}
-
-.contato article h3 {
-    font-family: 'fira_sans_extra_condensedXBd';
-    text-transform: uppercase;
-    text-align: center;
-    color: #234266;
-    font-size: 30px;
-}
-
-.contato article > div fieldset {
-    max-width: 700px;
-    margin: auto;
-}
-
-.contato article > div fieldset input {
-    width: 100%;
-    padding: 5px 12px;
-    border: 0;
-    font-size: 20px;
-    color: #676565;
-    font-family: 'fira_sans_extra_condensedRg';
-    margin-bottom: 5px;
-    background-color: #eee;
-}
-
-.contato article > div fieldset textarea {
-    width: 100%;
-    padding: 5px 12px;
-    border: 0;
-    font-size: 20px;
-    color: #676565;
-    font-family: 'fira_sans_extra_condensedRg';
-    margin-bottom: 5px;
-    height: 140px;
-    background-color: #eee;
-}
-
-.contato article > div fieldset input.btn {
-    float: right;
-    font-family: 'fira_sans_extra_condensedSBd', sans-serif;
-    width: auto;
-    padding: 10px 30px;
-    background-color: #3d8538;
-    color: #FFF;
-    cursor: pointer;
-    text-transform: uppercase;
-    border: 0;
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-.contato article > div fieldset input.btn:hover {
-    background-color: #75b025;
-}
-
-.loading {
-    display: none;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    height: 100vh;
-    left: 0;
-}
-
-.loading i {
-    color: #FFF;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    display: table;
-    left: 50%;
-    top: 50%;
-    transition: linear 100ms;
-    position: absolute;
-}
-
-.enviado-overlay {
-    position: fixed;
-    z-index: 9998;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-div.enviado {
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-image: url("../../images/backenviado.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 480px;
-    height: 300px;
-    position: fixed;
-    z-index: 9999;
-    display: table;
-    left: 50%;
-    top: 50%;
-    transition: linear 100ms;
-}
-
-div.enviado > div.fechar {
-    padding: 5px;
-    text-align: right;
-    display: table;
-    width: calc(100% - 10px);
-    line-height: 1;
-}
-
-div.enviado > div.fechar i {
-    cursor: pointer;
-}
-
-div.enviado h1 {
-    font-family: 'fira_sans_extra_condensedSBd';
-    color: #676565;
-    font-size: 24px;
-    text-align: center;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    text-shadow: 0 0 10px #FFF;
-}
-
-#social {
-    width: 100%;
-    display: table;
-}
-
-.social {
-    width: 1170px;
-    display: table;
-    margin: auto;
-    padding: 60px 0;
-    border-top: 1px solid #ccc;
-}
-
-.social ul {
-    list-style: none;
     padding: 0;
-    margin: 0;
+    list-style: none;
+    margin: 20px auto 0 auto;
+}
+
+.sorteio-semana .box-info ul li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 10px;
+}
+
+.sorteio-semana .box-info ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #262424;
+}
+
+.sorteio-nacional {
+    width: calc(100% - 60px);
+    padding: 20px 30px;
+    display: table;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background: rgba(223, 146, 46, 1);
+    background: -moz-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
+    background: -webkit-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -o-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: linear-gradient(to bottom, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=0);
+}
+
+.sorteio-nacional h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #262424;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sorteio-nacional .box-info {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.sorteio-nacional .box-info h3 {
+    text-align: center;
+    color: #262424;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.sorteio-nacional .box-info ul {
+    display: table;
+    padding: 0;
+    list-style: none;
+    margin: 20px auto 0 auto;
+}
+
+.sorteio-nacional .box-info ul li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 10px;
+}
+
+.sorteio-nacional .box-info ul li {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #262424;
+}
+
+.sorteio-nacional .imagem-sorteio {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
     text-align: center;
 }
 
-.social ul li {
-    display: inline-block;
-    margin: 0 10px;
+.sorteio-nacional .imagem-sorteio img {
+    max-width: 100%;
 }
 
-.social ul li a {
-    font-size: 40px;
+.sorteio .linha {
+    width: 500px;
+    max-width: 80%;
+    height: 5px;
+    display: table;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
+}
+
+.ganhadores {
+    background: rgba(34, 20, 20, 1);
+    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+    width: 100%;
+    display: table;
+}
+
+.ganhadores > article {
+    width: 1170px;
+    margin: 20px auto;
+}
+
+.ganhadores h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.ganhadores ul {
+    display: table;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto 60px auto;
+}
+
+.ganhadores ul li {
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.ganhadores ul li button.btn-ganhadores {
+    background-color: transparent;
+    padding: 20px 30px;
+    border: 2px solid #F2CC30;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #F2CC30;
+    cursor: pointer;
+}
+
+.ganhadores ul li button.btn-ganhadores:hover {
+    background-color: #F2CC30;
+    color: #3F171A;
+}
+
+footer {
+    width: 100%;
+    display: table;
+    height: 30px;
+    background: rgba(223, 146, 46, 1);
+    background: -moz-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
+    background: -webkit-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -o-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: linear-gradient(to right, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=1);
 }
 
 @media screen and (max-width: 1200px) {
-    .menu,
-    .quem-somos > article,
-    .o-que-fazemos > article,
-    .nossa-equipe > article,
-    .frase article,
-    .contato article,
-    .social {
-        width: 96%;
-    }
 
-    .quem-somos > article img {
-        max-width: 40%;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    .logo img {
-        height: 80px;
-    }
-
-    .social-media {
-        margin: 0;
-    }
-
-    .social-media ul {
-        margin-top: 5px;
-    }
-
-    .main-menu {
-        display: none;
-    }
-
-    #menuresp {
-        display: block;
-    }
-
-    .carousel-item {
-        height: 50vh;
-        min-height: 250px;
-    }
-
-    .carousel-item > div.banner h1 {
-        font-size: 40px;
-    }
-
-    .quem-somos > article,
-    .o-que-fazemos > article,
-    .nossa-equipe > article,
-    .frase article,
-    .contato article {
-        margin: 40px auto;
-    }
-
-    .quem-somos > article h3 {
-        font-size: 18px;
-    }
-
-    .o-que-fazemos > article h4 {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    #servicos {
-        padding: 5px 20px;
-        font-size: 20px;
-    }
-
-    #inventario,
-    #levantamento,
-    #desc-service {
-        display: none;
-    }
-
-    #inventario-resp,
-    #levantamento-resp {
-        display: block;
-    }
-
-    .nossa-equipe > article h2 {
-        font-size: 24px;
-    }
-
-    .nossa-equipe > article ul li h3 {
-        font-size: 22px;
-    }
-
-    .nossa-equipe > article ul li p {
-        font-size: 16px;
-    }
-
-    .frase article h2 {
-        font-size: 24px;
-    }
-
-    .contato article h3 {
-        font-size: 24px;
-    }
-
-    .contato article > div fieldset input,
-    .contato article > div fieldset textarea {
-        font-size: 16px;
-        line-height: 1.2;
-    }
-
-    .contato article > div fieldset input.btn {
-        font-size: 16px;
-        padding: 5px 20px;
-    }
-
-    .social {
-        padding: 40px 0;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .social-media ul li {
-        font-size: 16px;
-    }
-
-    .social-media ul li a i {
-        font-size: 24px;
-    }
-
-    .social-media ul li a span {
-        vertical-align: bottom;
-    }
-
-    .carousel-item > div.banner h1 {
-        font-size: 36px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .social-media ul li a span {
-        display: none;
-    }
-
-    .carousel-item > div.banner h1 {
-        font-size: 30px;
-    }
-
-    .quem-somos > article img {
-        max-width: 80%;
-        margin: 0 auto 15px auto;
-        float: none;
-        display: table;
-    }
-
-    .carousel-item {
-        min-height: 200px;
-    }
 }
