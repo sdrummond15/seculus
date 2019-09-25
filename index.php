@@ -200,9 +200,9 @@
 
             </div>
 
-            <div class="linha"></div>
-
         </article>
+
+        <div class="linha"></div>
 
     </div>
 

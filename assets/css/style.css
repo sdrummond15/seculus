@@ -343,7 +343,7 @@ a:hover {
 
 .sorteio > article {
     width: 1170px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .sorteio-semana h2 {
@@ -412,7 +412,7 @@ a:hover {
     padding: 20px 30px;
     display: table;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     background: rgba(223, 146, 46, 1);
     background: -moz-linear-gradient(top, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
