@@ -8,29 +8,16 @@
 
     <title>Seculus</title>
 
-    <meta name="description" content="A Avallis atua no mercado de Avaliação Patrimonial, prestando serviços nos mais diversos
+    <meta name="description" content="Show de Prêmios Seculus.">
 
-                campos de atuação, os quais visam, em seu objetivo maior, conhecer e gerir o patrimônio
-
-                (ativo) tangível e intangível das empresas públicas e privadas.">
-
-    <meta name="keywords" content="avaliacao patrimonial, inventario patrimonial, avaliacao de bens, levantamento planialtimetrico, georreferenciamento, topografia de terrenos, avaliacao de bens moveis, avaliacao de bens imoveis">
 
     <meta name="author" content="SDrummond">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="Avallis" />
+    <meta property="og:title" content="Show de Prêmios Seculus" />
 
-    <meta property="og:description" content="A Avallis atua no mercado de Avaliação Patrimonial, prestando serviços nos mais diversos
-
-                campos de atuação, os quais visam, em seu objetivo maior, conhecer e gerir o patrimônio
-
-                (ativo) tangível e intangível das empresas públicas e privadas.">
-
-    <meta property="og:url" content="http://avallis.com.br">
-
-    <meta property="og:image" content="http://avallis.com.br/images/avallis_empresa.jpg">
+    <meta property="og:description" content="Show de Prêmios Seculus.">
 
     <meta property="og:image:type" content="image/jpeg">
 
@@ -43,33 +30,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
-
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46101844-6"></script>
-
-    <script>
-
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag(){dataLayer.push(arguments);}
-
-        gtag('js', new Date());
-
-
-
-        gtag('config', 'UA-46101844-6');
-
-
-
-    </script>
-
-
-
 
 
 </head>
@@ -88,11 +48,13 @@
 
                     <li><a href="#periodo">Como Participar</a></li>
 
-                    <li><a href="#sorteio">Prêmios</a></li>
+                    <li><a href="#sorteio">Sorteios e Prêmios</a></li>
 
-                    <li><a href="#ganhadores">Ganhadores</a></li>
+                    <li><a href="#ganhadores">Resultados</a></li>
 
-                    <li><a href="#contato">Consultas</a></li>
+                    <li><a href="#contato">Fale Conosco</a></li>
+
+                    <li><a href="#numero_sorte"><span>Consulte Seu(s) Número(s) da Sorte</span></a></li>
 
                 </ul>
 
@@ -104,15 +66,17 @@
 
             <button title="button"><i class="fas fa-bars"></i></button>
 
-            <ul class="resposive">
+            <ul class="responsive">
 
-                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#periodo">Como Participar</a></li>
 
-                <li><a href="#o-que-fazemos">O Que Fazemos</a></li>
+                <li><a href="#sorteio">Sorteios e Prêmios</a></li>
 
-                <li><a href="#nossa-equipe">Nossa Equipe</a></li>
+                <li><a href="#ganhadores">Resultados</a></li>
 
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#contato">Fale Conosco</a></li>
+
+                <li><a href="#">Consulte Seu(s) Número(s) da Sorte</a></li>
 
             </ul>
 
@@ -200,9 +164,11 @@
 
             </div>
 
+            <div class="linha"></div>
+
         </article>
 
-        <div class="linha"></div>
+
 
     </div>
 
@@ -278,8 +244,53 @@
                     <button type="button" class="btn-ganhadores" id="ganhadores-nacionais">SORTEIOS NACIONAIS</button>
                 </li>
             </ul>
-
+            <div class="linha"></div>
             <div id="resultado-ganhadores">
+
+            </div>
+
+
+        </article>
+
+    </div>
+
+</section>
+<section id="contato">
+
+    <div class="contato">
+
+        <article>
+
+            <h3>Fale Conosco:</h3>
+
+            <div id="retornoHTML">
+
+                <form>
+
+                    <fieldset>
+
+                        <input id="nome" type="text" placeholder="Nome"><br>
+
+                        <input id="email" type="email" placeholder="E-mail"><br>
+
+                        <input id="phone" type="tel" placeholder="Telefone"><br>
+
+                        <textarea id="msg" placeholder="Mensagem:"></textarea><br>
+
+                        <input type="submit" id="btn" class="btn-contato" value="Enviar">
+
+                        <div class="loading">
+
+                            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+
+                        </div>
+
+                    </fieldset>
+
+
+
+                </form>
+                <div class="linha"></div>
 
             </div>
 
@@ -289,13 +300,37 @@
 
 </section>
 
-<footer>
 
+<section id="numero_sorte">
+
+    <div class="contato">
+
+        <article>
+
+            <h3>Digite o CNPJ:</h3>
+            <div>
+
+                <form action="resultados.php" method="POST">
+                    <fieldset>
+                    <input type="text" name="search_cnpj" id="search_cnpj" /><br />
+                    <input type="submit" id="btn" class="btn-contato" value="Buscar" />
+                    </fieldset>
+                </form>
+            </div>
+            <div class="linha"></div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<footer>
+        <p>&copy; 2019 por Seculus da Amazônia S/A
+            Promoção interna válida para parceiros comerciais da Seculus da Amazônia, não aberta ao público em geral. Consulte regras de participação.</p>
 </footer>
 
 </body>
-
-<script src="assets/js/jquery_3.1.1.min.js"></script>
 
 <script src="assets/js/bootstrap.min.js"></script>
 

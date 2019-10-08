@@ -56,43 +56,6 @@ a:hover {
     position: relative;
 }
 
-.logo {
-    float: left;
-    padding: 10px;
-}
-
-.social-media {
-    display: table;
-    float: right;
-    margin-right: 20px;
-}
-
-.social-media ul {
-    list-style: none;
-    padding: 0;
-    margin: 15px 0 0 0;
-    text-align: right;
-}
-
-.social-media ul li {
-    display: inline-block;
-    margin-left: 5px;
-}
-
-.social-media ul li:first-child {
-    margin: 0;
-}
-
-.social-media ul li a i {
-    font-size: 30px;
-}
-
-.social-media ul li a span {
-    line-height: 30px;
-    margin-right: 10px;
-    vertical-align: text-bottom;
-}
-
 .main-menu {
     display: table;
     width: 100%;
@@ -117,7 +80,16 @@ a:hover {
     text-transform: uppercase;
     display: table;
     transition: all 300ms;
-    font-size: 24px;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+}
+
+.main-menu ul li:last-child a {
+    padding: 3px 0;
+    display: table;
+    transition: all 300ms;
+    font-size: 18px;
+    color: #F2CC30;
     border-bottom: 1px solid transparent;
 }
 
@@ -184,38 +156,6 @@ a:hover {
     max-width: 80%;
 }
 
-.carousel-item {
-    height: 70vh;
-    min-height: 500px;
-}
-
-.carousel-item > div.banner {
-    height: 100%;
-    width: 100%;
-    display: block;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.carousel-item > div.banner > div {
-    height: 100%;
-    width: 100%;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-}
-
-.carousel-item > div.banner h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFF;
-    font-size: 60px;
-    text-transform: uppercase;
-    text-align: center;
-}
 
 .marcas {
     background: rgba(49, 23, 24, 1);
@@ -231,7 +171,7 @@ a:hover {
 }
 
 .marcas > article {
-    width: 1170px;
+    width: 100%;
     margin: 150px auto 60px auto;
 }
 
@@ -245,6 +185,7 @@ a:hover {
 .marcas > article ul li {
     display: inline-block;
     padding: 10px 30px;
+    float: left;
 }
 
 .periodo {
@@ -279,21 +220,6 @@ a:hover {
     margin-bottom: 35px;
 }
 
-.periodo .linha {
-    width: 500px;
-    max-width: 80%;
-    height: 5px;
-    display: table;
-    margin: 20px auto;
-    background: rgba(0, 0, 0, 0);
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
-}
 
 #participar ul {
     width: 100%;
@@ -356,7 +282,7 @@ a:hover {
 }
 
 .sorteio-semana {
-    width: calc(100% - 60px);
+    width: 100%;
     padding: 20px 30px;
     display: table;
     border-radius: 20px;
@@ -374,6 +300,7 @@ a:hover {
 .sorteio-semana img {
     float: left;
     margin-right: 20px;
+    max-width: 100%;
 }
 
 .sorteio-semana .box-info {
@@ -408,7 +335,7 @@ a:hover {
 }
 
 .sorteio-nacional {
-    width: calc(100% - 60px);
+    width: 100%;
     padding: 20px 30px;
     display: table;
     border-radius: 20px;
@@ -477,8 +404,7 @@ a:hover {
 }
 
 .sorteio .linha {
-    width: 500px;
-    max-width: 80%;
+    width: 90%;
     height: 5px;
     display: table;
     margin: 20px auto;
@@ -546,9 +472,213 @@ a:hover {
     color: #3F171A;
 }
 
+.contato {
+    background: rgba(34, 20, 20, 1);
+    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+    width: 100%;
+    display: table;
+}
+
+.contato article {
+    width: 1170px;
+     margin: 80px auto;
+}
+.contato article p {
+    text-align: center;
+    color: #F2CC30;
+    font-size: 30px;
+}
+.contato article h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.contato article > div fieldset input{
+    width: 100%;
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.contato article > div fieldset {
+    max-width: 700px;
+    margin: auto;
+}
+
+::placeholder {
+    color: #F2CC30;
+    opacity: 1; /* Firefox */
+    font-family: Arial;
+}
+
+.contato article > div fieldset textarea {
+    width: 100%;
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    height: 140px;
+    background-color: transparent;
+}
+
+
+.btn-contato{
+    padding: 20px 30px;
+    border: 2px solid #F2CC30;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 50px;
+    color: #F2CC30;
+    cursor: pointer;
+}
+
+.resultado article {
+    margin: 80px auto;
+}
+
+.num {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #F2CC30;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: Arial;
+    width: 60%;
+    margin: 80px auto;
+}
+
+.contato .btn-contato {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #F2CC30;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #F2CC30;
+    cursor: pointer;
+    font-family: Arial;
+    width: auto;
+}
+
+.contato .btn-contato:hover {
+    background-color: #F2CC30;
+    color: #3F171A;
+}
+
+.linha {
+    width: 90%;
+    height: 5px;
+    display: table;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
+}
+
+.loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100vh;
+    left: 0;
+}
+
+.loading i {
+    color: #FFF;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: table;
+    left: 50%;
+    top: 50%;
+    transition: linear 100ms;
+    position: absolute;
+}
+
+.enviado-overlay {
+    position: fixed;
+    z-index: 9998;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.enviado {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url("../../images/backenviado.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 300px;
+    position: fixed;
+    z-index: 9999;
+    display: table;
+    left: 50%;
+    top: 50%;
+    transition: linear 100ms;
+}
+
+div.enviado > div.fechar {
+    padding: 5px;
+    text-align: right;
+    display: table;
+    width: calc(100% - 10px);
+    line-height: 1;
+}
+
+div.enviado > div.fechar i {
+    cursor: pointer;
+}
+
+div.enviado h1 {
+    font-family: 'fira_sans_extra_condensedSBd';
+    color: #676565;
+    font-size: 24px;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 0 10px #FFF;
+}
+
 footer {
     width: 100%;
     display: table;
+    margin: 0 auto;
     height: 30px;
     background: rgba(223, 146, 46, 1);
     background: -moz-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
@@ -560,6 +690,178 @@ footer {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=1);
 }
 
+footer p{
+    text-align: center;
+    padding: 10px 10px;
+    color: #000;
+}
+
+footer h3{
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.resultado {
+    background: rgba(34, 20, 20, 1);
+    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+.linha {
+    width: 90%;
+    height: 5px;
+    display: table;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
+}
+
+.resultado article h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.resultado article p {
+    text-align: center;
+    color: #F2CC30;
+    font-size: 30px;
+}
+#slideresult img {
+    display: table;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
 @media screen and (max-width: 1200px) {
+    .main-menu {
+        display: none;
+    }
+
+    #menuresp {
+        display: block;
+    }
+
+    .menu,
+    .slide,
+    .marcas > article,
+    .periodo article,
+    .sorteio article,
+    .ganhadores article,
+    .linha,
+    .contato article{
+        width: 96%;
+    }
+
+    .quem-somos > article img {
+        max-width: 40%;
+    }
+
+    #slide img {
+        display: table;
+        margin: 0 auto -100px auto;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-menu {
+        display: none;
+    }
+
+    #menuresp {
+        display: block;
+    }
+
+
+    .slide,
+    .marcas > article,
+    .periodo > article,
+    .sorteio > article,
+    .ganhadores article,
+    .contato > fieldset{
+        margin: 40px auto;
+    }
+
+    .contato article h3 {
+        font-size: 24px;
+    }
+
+    .contato article > div fieldset input,
+    .contato article > div fieldset textarea {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .contato article > div fieldset input.btn {
+        font-size: 16px;
+        padding: 5px 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #slide img {
+        display: table;
+        margin: 0 auto 0px auto;
+        max-width: 80%;
+    }
+    .periodo > article h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .periodo > article h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    #participar ul li span {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .sorteio-semana img {
+        float: left;
+        margin-right: 20px;
+        max-width: 60%;
+    }
+    .sorteio-semana h2 {
+        font-size: 22px;
+    }
+    .sorteio-nacional{
+        padding: 10px 5px;
+    }
+    .sorteio-nacional .box-info ul li {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .sorteio-nacional .box-info h3 {
+        font-size: 15px;
+    }
+    .sorteio-nacional .imagem-sorteio {
+        width: 32%;
+    }
+    .sorteio-nacional .box-info {
+        width: 34%;
+    }
+    .sorteio-nacional h2 {
+       font-size: 22px;
+    }
 
 }

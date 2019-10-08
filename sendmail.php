@@ -48,7 +48,7 @@
 
 <?php
 
-$to = 'avallis@avallis.com.br'; // note the comma
+$to = 'contato@showdepremiosseculus.com.br'; // note the comma
 
 
 
@@ -84,7 +84,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 // Additional headers
 
-$headers .= 'From: AVALLIS <avallis@avallis.com.br>' . "\r\n";
+$headers .= 'From: SHOW SECULUS <contato@showdepremiosseculus.com.br>' . "\r\n";
 
 
 
@@ -100,8 +100,5 @@ echo '<div class="enviado-overlay"></div>'
 
     . '<div class="fechar"><i class="fa fa-times" aria-hidden="true"></i></div>'
 
-    . '<h1>Obrigada por<br>entrar em contato!</h1>'
-
-    . '<div class="linha"></div>'
-
+    . '<h1>Obrigado por<br>entrar em contato!</h1>'
     . '</div>';

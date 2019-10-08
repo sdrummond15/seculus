@@ -1,52 +1,6 @@
 jQuery(document).ready(function ($) {
-    $('.carousel').carousel({
-        interval: 6000,
-        ride: true
-    });
-
-    //PADDING PARA O BANNER
-    $(window).on('resize', function () {
-
-    }).trigger('resize');
-
-
-    //IGUALANDO O TAMANHO DAS DIVS DE O QUE FAZEMOS
-    $(window).on('resize', function () {
-        $('#levantamento').css('height', $('#inventario').innerHeight());
-    }).trigger('resize');
-
-    //EVENTO PARA SERVIÇOS DETALHAMENTO SLIDE UP E DOWN
-    $('#levantamento button').on('click', function () {
-        $('#desc-service ul.inventario').slideUp("slow", function () {
-            if ($("#inventario button i").hasClass("fa-chevron-up") == true) {
-                $("#inventario button i").removeClass('fa-chevron-up');
-            }
-            $('#desc-service ul.levantamento').slideToggle("slow");
-            $("#levantamento button i").toggleClass('fa-chevron-up', 'fa-chevron-down');
-        });
-    });
-    $('#inventario button').on('click', function () {
-        $('#desc-service ul.levantamento').slideUp("slow", function () {
-            if ($("#levantamento button i").hasClass("fa-chevron-up") == true) {
-                $("#levantamento button i").removeClass('fa-chevron-up');
-            }
-            $('#desc-service ul.inventario').slideToggle("slow");
-            $("#inventario button i").toggleClass('fa-chevron-up', 'fa-chevron-down');
-        });
-    });
-
-    //EVENTO PARA SERVIÇOS DETALHAMENTO SLIDE UP E DOWN RESPONSIVO
-    $('#levantamento-resp button').on('click', function () {
-            $('#desc-levantamento-resp').slideToggle("slow");
-            $("#levantamento-resp button i").toggleClass('fa-chevron-up', 'fa-chevron-down');
-    });
-    $('#inventario-resp button').on('click', function () {
-        $('#desc-inventario-resp').slideToggle("slow");
-        $("#inventario-resp button i").toggleClass('fa-chevron-up', 'fa-chevron-down');
-    });
-
-    //EVENTO PARA SCROLL SLOW MENU E LOGO
-    $('.logo, .main-menu, #menuresp').on('click', 'a[href^="#"]', function (event) {
+    //EVENTO PARA SCROLL SLOW MENU
+    $('.main-menu, #menuresp').on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
 
         $('html, body').animate({
@@ -122,8 +76,21 @@ jQuery(document).ready(function ($) {
         $('#menuresp ul').slideToggle();
     });
 
-    $(".logo a").click(function () {
-        $('#menuresp ul').slideUp();
+    $("#search_cnpj").keydown(function(){
+        try {
+            $("#search_cnpj").unmask();
+        } catch (e) {}
+
+        $("#search_cnpj").mask("99.999.999/9999-99");
+        var elem = this;
+        setTimeout(function(){
+            // mudo a posição do seletor
+            elem.selectionStart = elem.selectionEnd = 10000;
+        }, 0);
+        // reaplico o valor para mudar o foco
+        var currentValue = $(this).val();
+        $(this).val('');
+        $(this).val(currentValue);
     });
 });
 
