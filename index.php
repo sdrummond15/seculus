@@ -3,35 +3,19 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <title>Seculus</title>
-
     <meta name="description" content="Show de Prêmios Seculus.">
-
-
     <meta name="author" content="SDrummond">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta property="og:title" content="Show de Prêmios Seculus" />
-
     <meta property="og:description" content="Show de Prêmios Seculus.">
-
     <meta property="og:image:type" content="image/jpeg">
-
     <meta property="og:image:width" content="450">
-
     <link rel="icon" type="image/png" href="images/favicon.png"/>
-
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
-
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
 </head>
 
 <body>
@@ -41,45 +25,28 @@
     <div id="menu">
 
         <div class="menu">
-
             <div class="main-menu">
-
                 <ul>
-
                     <li><a href="#periodo">Como Participar</a></li>
-
                     <li><a href="#sorteio">Sorteios e Prêmios</a></li>
-
                     <li><a href="#ganhadores">Resultados</a></li>
-
                     <li><a href="#contato">Fale Conosco</a></li>
-
                     <li><a href="#numero_sorte"><span>Consulte Seu(s) Número(s) da Sorte</span></a></li>
-
                 </ul>
-
             </div>
-
         </div>
 
         <div id="menuresp">
-
-            <button title="button"><i class="fas fa-bars"></i></button>
-
+            <button title="button">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul class="responsive">
-
                 <li><a href="#periodo">Como Participar</a></li>
-
                 <li><a href="#sorteio">Sorteios e Prêmios</a></li>
-
                 <li><a href="#ganhadores">Resultados</a></li>
-
                 <li><a href="#contato">Fale Conosco</a></li>
-
-                <li><a href="#">Consulte Seu(s) Número(s) da Sorte</a></li>
-
+                <li><a href="#numero_sorte">Consulte Seu(s) Número(s) da Sorte</a></li>
             </ul>
-
         </div>
 
     </div>
@@ -297,7 +264,7 @@
             <div>
                 <form action="resultados.php" method="POST">
                     <fieldset>
-                    <input type="text" name="search_cnpj" id="search_cnpj" placeholder="CNPJ"/>
+                    <input type="text" name="search_cnpj" id="search_cnpj" placeholder="CNPJ" inputmode="numeric"/>
                     <input type="submit" id="btn" class="btn-numero-sorte" value="Buscar" />
                     </fieldset>
                 </form>
