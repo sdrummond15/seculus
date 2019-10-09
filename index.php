@@ -264,60 +264,44 @@
             <h3>Fale Conosco:</h3>
 
             <div id="retornoHTML">
-
                 <form>
-
                     <fieldset>
-
                         <input id="nome" type="text" placeholder="Nome"><br>
-
                         <input id="email" type="email" placeholder="E-mail"><br>
-
                         <input id="phone" type="tel" placeholder="Telefone"><br>
-
                         <textarea id="msg" placeholder="Mensagem:"></textarea><br>
-
                         <input type="submit" id="btn" class="btn-contato" value="Enviar">
-
                         <div class="loading">
-
                             <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-
                         </div>
-
                     </fieldset>
-
-
-
                 </form>
-                <div class="linha"></div>
 
             </div>
 
         </article>
 
+        <div class="linha"></div>
+
     </div>
 
 </section>
 
-
 <section id="numero_sorte">
 
-    <div class="contato">
+    <div class="numero-sorte">
 
         <article>
 
             <h3>Digite o CNPJ:</h3>
             <div>
-
                 <form action="resultados.php" method="POST">
                     <fieldset>
-                    <input type="text" name="search_cnpj" id="search_cnpj" /><br />
-                    <input type="submit" id="btn" class="btn-contato" value="Buscar" />
+                    <input type="text" name="search_cnpj" id="search_cnpj" placeholder="CNPJ"/>
+                    <input type="submit" id="btn" class="btn-numero-sorte" value="Buscar" />
                     </fieldset>
                 </form>
             </div>
-            <div class="linha"></div>
 
         </article>
 
@@ -332,8 +316,11 @@
 
 </body>
 
+<script src="assets/js/jquery_1.9.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-
+<script src="assets/js/jquery.noty.packaged.min.js"></script>
+<script src="assets/js/jquery.maskedinput-1.1.4.pack.js"></script>
+<script src="assets/js/jquery.inputmask.bundle.js"></script>
 <script src="assets/js/script.js"></script>
 
 </html>

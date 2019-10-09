@@ -156,7 +156,6 @@ a:hover {
     max-width: 80%;
 }
 
-
 .marcas {
     background: rgba(49, 23, 24, 1);
     background: -moz-linear-gradient(left, rgba(49, 23, 24, 1) 0%, rgba(64, 23, 26, 1) 5%, rgba(208, 106, 73, 1) 50%, rgba(64, 23, 26, 1) 95%, rgba(49, 23, 24, 1) 100%);
@@ -219,7 +218,6 @@ a:hover {
     font-size: 36px;
     margin-bottom: 35px;
 }
-
 
 #participar ul {
     width: 100%;
@@ -472,116 +470,6 @@ a:hover {
     color: #3F171A;
 }
 
-.contato {
-    background: rgba(34, 20, 20, 1);
-    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
-    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
-    width: 100%;
-    display: table;
-}
-
-.contato article {
-    width: 1170px;
-     margin: 80px auto;
-}
-.contato article p {
-    text-align: center;
-    color: #F2CC30;
-    font-size: 30px;
-}
-.contato article h3 {
-    text-transform: uppercase;
-    text-align: center;
-    color: #F2CC30;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-
-.contato article > div fieldset input{
-    width: 100%;
-    padding: 5px 12px;
-    border: 1px solid #F2CC30;
-    font-size: 15px;
-    color: #F2CC30;
-    font-family: 'fira_sans_extra_condensedRg';
-    margin-bottom: 5px;
-    background-color: transparent;
-}
-
-.contato article > div fieldset {
-    max-width: 700px;
-    margin: auto;
-}
-
-::placeholder {
-    color: #F2CC30;
-    opacity: 1; /* Firefox */
-    font-family: Arial;
-}
-
-.contato article > div fieldset textarea {
-    width: 100%;
-    padding: 5px 12px;
-    border: 1px solid #F2CC30;
-    font-size: 15px;
-    color: #F2CC30;
-    font-family: 'fira_sans_extra_condensedRg';
-    margin-bottom: 5px;
-    height: 140px;
-    background-color: transparent;
-}
-
-
-.btn-contato{
-    padding: 20px 30px;
-    border: 2px solid #F2CC30;
-    font-size: 30px;
-    text-transform: uppercase;
-    width: 50px;
-    color: #F2CC30;
-    cursor: pointer;
-}
-
-.resultado article {
-    margin: 80px auto;
-}
-
-.num {
-    background-color: transparent;
-    padding: 5px 10px;
-    border: 1px solid #F2CC30;
-    border-radius: 5px;
-    font-size: 15px;
-    color: #F2CC30;
-    font-family: Arial;
-    width: 60%;
-    margin: 80px auto;
-}
-
-.contato .btn-contato {
-    background-color: transparent;
-    padding: 5px 10px;
-    border: 1px solid #F2CC30;
-    border-radius: 5px;
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #F2CC30;
-    cursor: pointer;
-    font-family: Arial;
-    width: auto;
-}
-
-.contato .btn-contato:hover {
-    background-color: #F2CC30;
-    color: #3F171A;
-}
-
 .linha {
     width: 90%;
     height: 5px;
@@ -690,13 +578,13 @@ footer {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=1);
 }
 
-footer p{
+footer p {
     text-align: center;
     padding: 10px 10px;
     color: #000;
 }
 
-footer h3{
+footer h3 {
     text-align: center;
     color: #000;
     font-size: 36px;
@@ -716,19 +604,111 @@ footer h3{
     height: 100vh;
     display: table;
 }
-.linha {
-    width: 90%;
-    height: 5px;
+
+.contato,
+.numero-sorte {
+    background: rgba(34, 20, 20, 1);
+    background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#221414', endColorstr='#221414', GradientType=1);
+    width: 100%;
     display: table;
-    margin: 20px auto;
-    background: rgba(0, 0, 0, 0);
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(75%, rgba(255, 255, 255, 0.8)), color-stop(100%, rgba(34, 20, 20, 0)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 75%, rgba(34, 20, 20, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#221414', GradientType=1);
+}
+
+.contato article,
+.numero-sorte article {
+    width: 1170px;
+    margin: 80px auto;
+}
+
+.contato article p {
+    text-align: center;
+    color: #F2CC30;
+    font-size: 30px;
+}
+
+.contato article h3,
+.numero-sorte h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contato article > div fieldset input {
+    width: 100%;
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.contato article > div fieldset,
+.numero-sorte article > div fieldset {
+    max-width: 700px;
+    margin: auto;
+}
+
+::placeholder {
+    color: #F2CC30;
+    opacity: 1; /* Firefox */
+    font-family: Arial;
+}
+
+.contato article > div fieldset textarea {
+    width: 100%;
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    height: 140px;
+    background-color: transparent;
+}
+
+.resultado article {
+    margin: 80px auto;
+}
+
+.contato .btn-contato,
+.numero-sorte .btn-numero-sorte {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid #F2CC30;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #F2CC30;
+    cursor: pointer;
+    font-family: Arial;
+    width: auto;
+    float: right;
+}
+
+.contato .btn-contato:hover,
+.numero-sorte .btn-numero-sorte:hover {
+    background-color: #F2CC30;
+    color: #3F171A;
+}
+
+.numero-sorte div fieldset input {
+    width: calc(100% - 120px);
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    background-color: transparent;
 }
 
 .resultado article h3 {
@@ -744,10 +724,24 @@ footer h3{
     color: #F2CC30;
     font-size: 30px;
 }
+
 #slideresult img {
     display: table;
     margin: 20px auto;
     max-width: 80%;
+}
+
+/* resultados.php*/
+.num {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #F2CC30;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: Arial;
+    width: 60%;
+    margin: 80px auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -766,7 +760,7 @@ footer h3{
     .sorteio article,
     .ganhadores article,
     .linha,
-    .contato article{
+    .contato article {
         width: 96%;
     }
 
@@ -791,13 +785,12 @@ footer h3{
         display: block;
     }
 
-
     .slide,
     .marcas > article,
     .periodo > article,
     .sorteio > article,
     .ganhadores article,
-    .contato > fieldset{
+    .contato > fieldset {
         margin: 40px auto;
     }
 
@@ -824,44 +817,55 @@ footer h3{
         margin: 0 auto 0px auto;
         max-width: 80%;
     }
+
     .periodo > article h1 {
         font-size: 25px;
         margin-bottom: 20px;
     }
+
     .periodo > article h2 {
         font-size: 25px;
         margin-bottom: 20px;
     }
+
     #participar ul li span {
         padding: 0 10px;
         font-size: 14px;
     }
+
     .sorteio-semana img {
         float: left;
         margin-right: 20px;
         max-width: 60%;
     }
+
     .sorteio-semana h2 {
         font-size: 22px;
     }
-    .sorteio-nacional{
+
+    .sorteio-nacional {
         padding: 10px 5px;
     }
+
     .sorteio-nacional .box-info ul li {
         margin-left: 5px;
         font-size: 14px;
     }
+
     .sorteio-nacional .box-info h3 {
         font-size: 15px;
     }
+
     .sorteio-nacional .imagem-sorteio {
         width: 32%;
     }
+
     .sorteio-nacional .box-info {
         width: 34%;
     }
+
     .sorteio-nacional h2 {
-       font-size: 22px;
+        font-size: 22px;
     }
 
 }
