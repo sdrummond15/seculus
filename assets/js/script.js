@@ -16,13 +16,22 @@ jQuery(document).ready(function ($) {
     });
 
     //EVENTO PARA SCROLL SLOW MENU
-    $('.main-menu, #menuresp').on('click', 'a[href^="#"]', function (event) {
+    $('.main-menu, #menuresp, .topo').on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
 
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
 
+    });
+
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 100) {
+            $('.topo').fadeIn('slow');
+        }
+        else {
+            $('.topo').fadeOut('slow');
+        }
     });
 
     //ENVIO DE CONTATO
@@ -92,7 +101,7 @@ jQuery(document).ready(function ($) {
         $('#menuresp ul').slideToggle();
     });
 
-    $('#search_cnpj').mask("99.999.999/9999-99");
+    $('#search_cnpj').inputmask("99.999.999/9999-99");
 
     //Valida CNPJ
 
@@ -141,15 +150,73 @@ jQuery(document).ready(function ($) {
         }
     });
 
+    $('#btn-numero-sorte').click(function (e) {
+
+        var formData = $(this).parents('form').serialize();
+
+        if($('#search_cnpj').val() == '') {
+            $('#result-numeros').empty();
+            noty({
+                text: 'Informe um CNPJ!',
+                layout: 'top',
+                type: 'warning',
+                modal: true,
+                timeout: 4000,
+                onClick: function ($noty) {
+                    $noty.close();
+                },
+                callback: {
+                    onClose: function () {
+                        $("#search_cnpj").focus();
+                        $("#search_cnpj").val('');
+                    },
+                }
+            });
+            return false;
+        }
+
+        e.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            url: 'numeros_sorte.php',
+            async: true,
+            data: formData,
+            success: function (data) {
+                $('#result-numeros').empty();
+                $('#result-numeros').prepend(data);
+            },
+            beforeSend: function () {
+                $('.loading').fadeIn('fast');
+            }, complete: function () {
+                $('.loading').fadeOut('fast');
+                $("#nome").val("");
+                $("#email").val("");
+                $("#phone").val("");
+                $("#msg").val("");
+            }
+        });
+
+        function IsEmail(email) {
+            var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (!regex.test(email)) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+    });
+
+
 });
 
 function somenteNumeros(str) {
-    var number = str.match(/\d/g);
-    return number.join("");
+    var numsStr = str.replace(/[^0-9]/g,'');
+    return String(numsStr);
 }
 
 function VerificaCNPJ(cnpj) {
-    cnpj = cnpj.replace(/[^\d]+/g, '');
+    cnpj = cnpj.toString().replace(/[^\d]+/g, '');
     if (cnpj == '')
         return false;
     if (cnpj.length != 14)

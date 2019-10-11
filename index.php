@@ -19,7 +19,7 @@
 </head>
 
 <body>
-
+<div id="topo"></div>
 <header id="header">
 
     <div id="menu">
@@ -31,7 +31,7 @@
                     <li><a href="#sorteio">Sorteios e Prêmios</a></li>
                     <li><a href="#ganhadores">Resultados</a></li>
                     <li><a href="#contato">Fale Conosco</a></li>
-                    <li><a href="#numero_sorte"><span>Consulte Seu(s) Número(s) da Sorte</span></a></li>
+                    <li><a href="resultados.php"><span>Consulte Seu(s) Número(s) da Sorte</span></a></li>
                 </ul>
             </div>
         </div>
@@ -45,7 +45,7 @@
                 <li><a href="#sorteio">Sorteios e Prêmios</a></li>
                 <li><a href="#ganhadores">Resultados</a></li>
                 <li><a href="#contato">Fale Conosco</a></li>
-                <li><a href="#numero_sorte">Consulte Seu(s) Número(s) da Sorte</a></li>
+                <li><a href="resultados.php">Consulte Seu(s) Número(s) da Sorte</a></li>
             </ul>
         </div>
 
@@ -254,32 +254,16 @@
 
 </section>
 
-<section id="numero_sorte">
-
-    <div class="numero-sorte">
-
-        <article>
-
-            <h3>Digite o CNPJ:</h3>
-            <div>
-                <form action="resultados.php" method="POST">
-                    <fieldset>
-                    <input type="text" name="search_cnpj" id="search_cnpj" placeholder="CNPJ" inputmode="numeric"/>
-                    <input type="submit" id="btn" class="btn-numero-sorte" value="Buscar" />
-                    </fieldset>
-                </form>
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
 <footer>
         <p>&copy; 2019 por Seculus da Amazônia S/A
             Promoção interna válida para parceiros comerciais da Seculus da Amazônia, não aberta ao público em geral. Consulte regras de participação.</p>
 </footer>
+
+<span class="topo">
+    <a href="#topo">
+        <i class="fas fa-angle-up"></i>
+    </a>
+</span>
 
 </body>
 

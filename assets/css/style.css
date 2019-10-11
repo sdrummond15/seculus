@@ -637,8 +637,7 @@ footer h3 {
     font-size: 30px;
 }
 
-.contato article h3,
-.numero-sorte h3 {
+.contato article h3 {
     text-transform: uppercase;
     text-align: center;
     color: #F2CC30;
@@ -661,6 +660,14 @@ footer h3 {
 .numero-sorte article > div fieldset {
     max-width: 700px;
     margin: auto;
+}
+
+.numero-sorte h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 ::placeholder {
@@ -717,6 +724,8 @@ footer h3 {
     background-color: transparent;
 }
 
+/* resultados.php*/
+
 .resultado article h3 {
     text-transform: uppercase;
     text-align: center;
@@ -731,23 +740,94 @@ footer h3 {
     font-size: 30px;
 }
 
-#slideresult img {
+#slide-result img {
     display: table;
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 80%;
 }
 
-/* resultados.php*/
+#chance {
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    height: 30px;
+    background: rgba(223, 146, 46, 1);
+    background: -moz-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(223, 146, 46, 1)), color-stop(15%, rgba(245, 236, 73, 1)), color-stop(85%, rgba(245, 236, 73, 1)), color-stop(100%, rgba(223, 146, 46, 1)));
+    background: -webkit-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -o-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    background: linear-gradient(to right, rgba(223, 146, 46, 1) 0%, rgba(245, 236, 73, 1) 15%, rgba(245, 236, 73, 1) 85%, rgba(223, 146, 46, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df922e', endColorstr='#df922e', GradientType=1);
+}
+
+#chance article {
+    width: 1170px;
+    margin: 30px auto;
+}
+
+#chance article h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    margin: 20px 20%;
+}
+
+#footer-result {
+    background: transparent;
+}
+
+#footer-result article {
+    width: 1170px;
+    margin: 30px auto;
+}
+
+#footer-result article p {
+    color: #FFF;
+    font-size: 14px;
+    padding: 20px 10%;
+    text-align: justify;
+}
+
 .num {
     background-color: transparent;
-    padding: 5px 10px;
     border: 1px solid #F2CC30;
     border-radius: 5px;
     font-size: 15px;
     color: #F2CC30;
     font-family: Arial;
-    width: 60%;
-    margin: 80px auto;
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.num h3 {
+    font-size: 24px;
+}
+
+.topo {
+    position: fixed;
+    z-index: 9999;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F2CC30;
+    display: none;
+}
+
+.topo a {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #F2CC30;
+}
+
+.topo a:hover {
+    background-color: #F2CC30;
+    color: #000;
 }
 
 @media screen and (max-width: 1200px) {
@@ -771,12 +851,10 @@ footer h3 {
     .ganhadores article,
     .linha,
     .contato article,
-    .numero-sorte article {
+    .numero-sorte article,
+    #chance article,
+    #footer-result article {
         width: 96%;
-    }
-
-    .quem-somos > article img {
-        max-width: 40%;
     }
 
 }
@@ -860,6 +938,16 @@ footer h3 {
         font-size: 24px;
         padding: 10px 20px;
     }
+
+    #chance article h3 {
+        font-size: 26px;
+        margin: 20px;
+    }
+
+    #footer-result article p {
+        font-size: 12px;
+        padding: 20px 5%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -878,4 +966,16 @@ footer h3 {
         margin: 40px auto;
     }
 
+    #chance article h3 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .numero-sorte h3 {
+        font-size: 20px;
+    }
+
+    #footer-result article p {
+        font-size: 10px;
+    }
 }
