@@ -205,10 +205,10 @@
 
             <ul>
                 <li>
-                    <button type="button" class="btn-ganhadores" id="ganhadores-regionais">SORTEIOS REGIONAIS</button>
+                    <a href="sorteios.php?sorteio=regional" class="btn-ganhadores" id="ganhadores-regionais">SORTEIOS REGIONAIS</a>
                 </li>
                 <li>
-                    <button type="button" class="btn-ganhadores" id="ganhadores-nacionais">SORTEIOS NACIONAIS</button>
+                    <a href="sorteios.php?sorteio=nacional" class="btn-ganhadores" id="ganhadores-nacionais">SORTEIOS NACIONAIS</a>
                 </li>
             </ul>
             <div class="linha"></div>

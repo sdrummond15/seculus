@@ -460,7 +460,7 @@ a:hover {
     margin: 10px 40px;
 }
 
-.ganhadores ul li button.btn-ganhadores {
+.ganhadores ul li a.btn-ganhadores {
     background-color: transparent;
     padding: 20px 30px;
     border: 2px solid #F2CC30;
@@ -469,11 +469,13 @@ a:hover {
     text-transform: uppercase;
     color: #F2CC30;
     cursor: pointer;
+    display: table;
 }
 
-.ganhadores ul li button.btn-ganhadores:hover {
+.ganhadores ul li a.btn-ganhadores:hover {
     background-color: #F2CC30;
     color: #3F171A;
+    text-decoration: none;
 }
 
 .linha {
@@ -612,7 +614,8 @@ footer h3 {
 }
 
 .contato,
-.numero-sorte {
+.numero-sorte,
+.sorteios {
     background: rgba(34, 20, 20, 1);
     background: -moz-linear-gradient(left, rgba(34, 20, 20, 1) 0%, rgba(63, 23, 26, 1) 50%, rgba(34, 20, 20, 1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 20, 20, 1)), color-stop(50%, rgba(63, 23, 26, 1)), color-stop(100%, rgba(34, 20, 20, 1)));
@@ -828,6 +831,92 @@ footer h3 {
 .topo a:hover {
     background-color: #F2CC30;
     color: #000;
+    text-decoration: none;
+}
+
+.topo a i {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/*Sorteio*/
+#sorteios article {
+    width: 1170px;
+    margin: 80px auto;
+}
+
+#sorteios article h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#sorteios article > div fieldset select {
+    width: 40%;
+    max-width: 240px;
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sorteios article > div fieldset input {
+    width: 100%;
+    padding: 5px 12px;
+    border: 1px solid #F2CC30;
+    font-size: 15px;
+    color: #F2CC30;
+    font-family: 'fira_sans_extra_condensedRg';
+    margin-bottom: 5px;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sorteios article > div fieldset select option {
+    color: #000;
+}
+
+#sorteios article > div fieldset {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+#sorteios h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #F2CC30;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#sorteios .btn-sorteio {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid #F2CC30;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #F2CC30;
+    cursor: pointer;
+    font-family: Arial;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sorteios .btn-sorteio:hover {
+    background-color: #F2CC30;
+    color: #3F171A;
 }
 
 @media screen and (max-width: 1200px) {

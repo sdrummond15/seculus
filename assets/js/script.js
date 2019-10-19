@@ -207,6 +207,24 @@ jQuery(document).ready(function ($) {
         }
     });
 
+    $('#btn-sorteio').click(function (e) {
+
+        var formData = $(this).parents('form').serialize();
+
+        e.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            url: 'ganhadores.php',
+            async: true,
+            data: formData,
+            success: function (data) {
+                $('#ganhadores').empty();
+                $('#ganhadores').prepend(data);
+            }
+        });
+
+    });
 
 });
 
