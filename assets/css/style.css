@@ -919,6 +919,37 @@ footer h3 {
     color: #3F171A;
 }
 
+#sorteios h4 {
+    color: #FFF;
+    font-size: 24px;
+    margin: 30px auto;
+    max-width: 80%;
+    padding: 0 20px;
+}
+
+#sorteios .ganhador_sorteio {
+    border-radius: 10px;
+    border: 2px solid #F2CC30;
+    background-color: #FFF;
+    padding: 30px;
+    max-width: 80%;
+    margin: auto;
+}
+
+#sorteios .ganhador_sorteio img {
+    float: right;
+}
+
+#sorteios .ganhador_sorteio h3{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#sorteios .ganhador_sorteio p{
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
 @media screen and (max-width: 1200px) {
     #slide img {
         max-width: 90%;

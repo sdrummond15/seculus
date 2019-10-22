@@ -3,7 +3,6 @@ $tipo = $_GET['sorteio'];
 if( (!isset($tipo) || trim($tipo) != 'regional') && (trim($tipo) != 'nacional')){
     $tipo = 'regional';
 }
-echo $tipo;
 
 
 $servername = "localhost";
@@ -135,7 +134,7 @@ if ($conn->connect_error) {
             </div>
 
             <div id="ganhadores">
-                <h4>Parabéns aos ganhadores! <br>Seu número da sorte continua valendo!</h4>
+
             </div>
 
         </article>
