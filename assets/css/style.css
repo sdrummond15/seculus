@@ -933,19 +933,23 @@ footer h3 {
     background-color: #FFF;
     padding: 30px;
     max-width: 80%;
-    margin: auto;
+    margin: 0 auto 30px auto;
+    display: table;
+    width: calc(100% - 60px);
 }
 
 #sorteios .ganhador_sorteio img {
     float: right;
+    max-width: 50%;
 }
 
-#sorteios .ganhador_sorteio h3{
+#sorteios .ganhador_sorteio h3 {
     color: #000;
     font-size: 30px;
     text-transform: uppercase;
 }
-#sorteios .ganhador_sorteio p{
+
+#sorteios .ganhador_sorteio p {
     margin-bottom: 8px;
     font-size: 24px;
 }
@@ -973,7 +977,8 @@ footer h3 {
     .contato article,
     .numero-sorte article,
     #chance article,
-    #footer-result article {
+    #footer-result article,
+    #sorteios article {
         width: 96%;
     }
 
@@ -1068,6 +1073,19 @@ footer h3 {
         font-size: 12px;
         padding: 20px 5%;
     }
+
+    #sorteios article h3 {
+        font-size: 26px;
+    }
+
+    #sorteios .ganhador_sorteio {
+        text-align: center;
+    }
+
+    #sorteios .ganhador_sorteio img {
+        float: none;
+        margin: 0 auto 20px auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1097,5 +1115,15 @@ footer h3 {
 
     #footer-result article p {
         font-size: 10px;
+    }
+
+    #sorteios article > div fieldset select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #sorteios .ganhador_sorteio {
+        max-width: 96%;
+        width: 100%;
     }
 }

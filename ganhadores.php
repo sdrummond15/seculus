@@ -23,10 +23,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } else {
 
-    $sql = "select s.*, c.*
+    $sql = "select s.*
     from sweepstakes s
-    left join cnpjxnum c
-    on s.cnpj = c.cnpj 
     where type = '$type'
     and date_drawn = '$date_drawn' " . "$type_zone";
 
@@ -35,13 +33,27 @@ if ($conn->connect_error) {
     $count = 0;
     $result = '<h4>Parabéns aos ganhadores! <br>Seu número da sorte continua valendo!</h4>';
     while ($row = $res->fetch_assoc()) {
+
+        $img = 'images/';
+        if(strtoupper($row["premium"]) == 'SMARTPHONE')
+            $img .= 'smartphone.png';
+
+        if(strtoupper($row["premium"]) == 'SMARTV')
+            $img .= 'smartv.png';
+
+        if(strtoupper($row["premium"]) == 'CAIXA DE SOM')
+            $img .= 'caixa_som.png';
+
+        if(strtoupper($row["premium"]) == 'RENEGADE')
+            $img .= 'renegade.png';
+
         $result .= '<div class="ganhador_sorteio">';
-        $result .= '<img src="' . $row["image"] . '" alt="' . $row["premium"] . '"/>';
-        $result .= '<h3>' . $row["premium"] . '</h3>';
-        $result .= '<p>Número do pedido: ' . $row["pedido"] . '</p>';
-        $result .= '<p>Razão Social: ' . $row["razao_social"] . '</p>';
-        $result .= '<p>Número do pedido: ' . $row["sort_number"] . '</p>';
-        $result .= '<p>Marca: ' . $row["marca"] . '</p>';
+        $result .= '<h3>' . utf8_encode($row["premium"]) . '</h3>';
+        $result .= '<img src="' . $img . '" alt="' . utf8_encode($row["premium"]) . '"/>';
+        $result .= '<p>Número do pedido: ' . utf8_encode($row["pedido"]) . '</p>';
+        $result .= '<p>Razão Social: ' . utf8_encode($row["cnpj"]) . '</p>';
+        $result .= '<p>Número do pedido: ' . utf8_encode($row["sort_number"]) . '</p>';
+        $result .= '<p>Marca: ' . utf8_encode($row["modelo"]) . '</p>';
         $result .= '</div>';
         $count++;
     }
